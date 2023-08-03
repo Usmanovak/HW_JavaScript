@@ -5,20 +5,25 @@
 Если не получается - использовуйте prompt и alert. */
 
 
-// let answer = prompt("Каков самый лучший фильм времен и народов?");
-// let Boolanswer = (answer == "Джентельмены" ^ answer == "джентельмены") ? true : false
-// if (Boolanswer == false) {
-//     alert ("Попробуйте еще раз!")
-// } else {
-//     alert("Совершенно точно!")
-// }
-
-
-let answer = prompt("Каков самый лучший фильм времен и народов?")
-function TheBestMovie(answer) {
-    answer == "Джентельмены" ^ answer == "джентельмены" ? true : false
-    
+let answer = prompt("Каков самый лучший фильм времен и народов?");
+let Boolanswer = (answer == "Джентельмены" ^ answer == "джентельмены") ? true : false
+if (Boolanswer == false) {
+    alert ("Попробуйте еще раз!")
+} else {
+    alert("Совершенно точно!")
 }
-TheBestMovie(answer)
+
+
+// моя неудачная попытка создать ф-ию
+// let answer = prompt("Каков самый лучший фильм времен и народов?")
+
+// function TheBestMovie(answer) {
+//     let Boolanswer = (answer == "Джентельмены" ^ answer == "джентельмены") ? true : false
+//     while (Boolanswer == false) {
+//         return (prompt("Попробуйте еще раз"))
+//     } 
+//     return ("Совершенно точно!")
+// }
+// TheBestMovie(answer)
 
 
